@@ -1,9 +1,23 @@
 ---
-title: "latex_tutorial"
+title: "Welcome to LaTeX Tutorials 1"
 ---
 
-This is a Quarto website.
+# Welcome
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This website offers a series of tutorials on LaTeX. Use the navigation menu to explore:
 
+- [LaTeX Basics](tutorials/basics.qmd)
+- [Advanced LaTeX Techniques](tutorials/advanced.qmd)
 
+# Բարի գալուստ
+<span style="color: magenta;">Սա հայերենի կտորը ու մե հրաշք թեորեմ։</span>
+- [ՀայՏեխ](tutorials/armenian.qmd)
+
+# Տնային
+```{=html}
+<object data="pdfs/example.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="pdfs/example.pdf">click here to
+    download the PDF file.</a></p>
+</object>
+```

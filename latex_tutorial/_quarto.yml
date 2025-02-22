@@ -1,21 +1,30 @@
 project:
-  type: website
+  # Use "book" instead of "website" to get a left sidebar of chapters
+  type: book
 
-website:
-  title: "latex_tutorial"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+book:
+  # Global title (appears at the top of the sidebar)
+  title: "LaTeX Tutorials 1"
+  author: "Your Name"
+
+  # Define chapters (top-level pages) and sub-chapters
+  chapters:
+    - index.qmd
+    - part: "Tutorials"
+      chapters:
+        - tutorials/armenian.qmd
+        - tutorials/basics.qmd
+        - tutorials/advanced.qmd
 
 format:
   html:
-    theme:
-      - dark
-      - brand
-    css: styles.css
+    # Pick a theme you like, e.g., "cosmo", "flatly", "minty", etc.
+    theme: minty
+
+    # Show table of contents on the left
     toc: true
+    toc-location: left
 
-
-
+    # Optional: Control sidebar depth or other options
+    # number-sections: true
+    # code-fold: true

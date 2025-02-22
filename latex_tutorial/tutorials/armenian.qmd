@@ -1,0 +1,32 @@
+---
+title: "Armenian"
+---
+
+## Արամի վիդեոն։
+::: {.video}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ATk8CJ4OxUU?si=wT5_uK8LaO7Isss4" frameborder="0" allowfullscreen></iframe>
+:::
+
+## Տիկո նայի ինչեր եմ կարում։
+
+::: {.callout}
+Չինական գնացքների թեորեմ
+:::
+
+### LaTeX of Chinese Remainder Theorem
+$$
+\begin{aligned}
+&x \equiv a_1 \ (\text{mod} \ n_1) \\
+&x \equiv a_2 \ (\text{mod} \ n_2) \\
+&\vdots \\
+&x \equiv a_k \ (\text{mod} \ n_k)
+\end{aligned}
+$$
+
+### R Code
+```{r}
+chinese_remainder <- function(a, n) {
+  N <- prod(n)
+  sum(a * (N / n) * sapply(N / n, function(x) solve(x, 1) %% x)) %% N
+}
+```

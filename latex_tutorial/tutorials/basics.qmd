@@ -1,0 +1,20 @@
+---
+title: "LaTeX Basics"
+---
+
+# LaTeX Basics Tutorial
+
+Welcome to the basics of LaTeX. In this tutorial, we cover:
+- How to write simple documents.
+- Basic text formatting.
+- Inserting equations.
+
+## Example Equation
+
+Below is a simple equation written in LaTeX:
+
+$$
+E = mc^2
+$$
+
+Experiment with different LaTeX commands to get familiar with document formatting.

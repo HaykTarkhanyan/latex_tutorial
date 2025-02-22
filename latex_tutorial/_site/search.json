@@ -1,10 +1,24 @@
 [
   {
+    "objectID": "tutorials/basics.html",
+    "href": "tutorials/basics.html",
+    "title": "LaTeX Basics",
+    "section": "",
+    "text": "Welcome to the basics of LaTeX. In this tutorial, we cover: - How to write simple documents. - Basic text formatting. - Inserting equations.\n\n\nBelow is a simple equation written in LaTeX:\n\\[\nE = mc^2\n\\]\nExperiment with different LaTeX commands to get familiar with document formatting."
+  },
+  {
+    "objectID": "tutorials/basics.html#example-equation",
+    "href": "tutorials/basics.html#example-equation",
+    "title": "LaTeX Basics",
+    "section": "",
+    "text": "Below is a simple equation written in LaTeX:\n\\[\nE = mc^2\n\\]\nExperiment with different LaTeX commands to get familiar with document formatting."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "latex_tutorial",
+    "title": "Welcome to LaTeX Tutorials 1",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Welcome\nThis website offers a series of tutorials on LaTeX. Use the navigation menu to explore:\n\nLaTeX Basics\nAdvanced LaTeX Techniques"
   },
   {
     "objectID": "about.html",
@@ -25,7 +39,7 @@
     "href": "about.html#code-cell",
     "title": "About",
     "section": "Code Cell",
-    "text": "Code Cell\nHere is a Python code cell:\n\nimport time \nimport random\n\nprint(time.time())\nprint(random.randint(1,100))\n\n1740250257.634851\n84"
+    "text": "Code Cell\nHere is a Python code cell:\n\nimport time \nimport random\n\nprint(time.time())\nprint(random.randint(1,100))\n\n1740251008.0527472\n27"
   },
   {
     "objectID": "about.html#equation",
@@ -33,5 +47,19 @@
     "title": "About",
     "section": "Equation",
     "text": "Equation\nUse LaTeX to write equations:\n\\[\n\\chi' = \\sum_{i=2}^n k_i s_i^2\n\\]"
+  },
+  {
+    "objectID": "tutorials/advanced.html",
+    "href": "tutorials/advanced.html",
+    "title": "Advanced LaTeX Techniques",
+    "section": "",
+    "text": "This tutorial explores advanced LaTeX features including: - Custom commands and environments. - Package management. - Creating custom templates.\n\n\nYou can define a new command in LaTeX as follows:\n\\newcommand{\\R}{\\mathbb{R}}\nNow, you can use \\(\\R\\) to denote the set of real numbers.\nTry incorporating more advanced packages and settings to enhance your document’s design."
+  },
+  {
+    "objectID": "tutorials/advanced.html#custom-command-example",
+    "href": "tutorials/advanced.html#custom-command-example",
+    "title": "Advanced LaTeX Techniques",
+    "section": "",
+    "text": "You can define a new command in LaTeX as follows:\n\\newcommand{\\R}{\\mathbb{R}}\nNow, you can use \\(\\R\\) to denote the set of real numbers.\nTry incorporating more advanced packages and settings to enhance your document’s design."
   }
 ]
