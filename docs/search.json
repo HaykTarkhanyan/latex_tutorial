@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "LaTeX Tutorials 1",
+    "title": "LaTeX 1",
     "section": "",
     "text": "1 Welcome\nThis website offers a series of tutorials on LaTeX. Use the navigation menu to explore:\n\nLaTeX Basics\nAdvanced LaTeX Techniques\n\n\n\n2 Բարի գալուստ\nՍա հայերենի կտորը ու մե հրաշք թեորեմ։ - ՀայՏեխ\n\n\n3 Տնային\n\n    It appears you don't have a PDF plugin for this browser.\n    No biggie... you can click here to\n    download the PDF file.",
     "crumbs": [
@@ -25,7 +25,7 @@
     "href": "tutorials/armenian.html#տիկո-նայի-ինչեր-եմ-կարում",
     "title": "2  Armenian",
     "section": "2.2 Տիկո նայի ինչեր եմ կարում։",
-    "text": "2.2 Տիկո նայի ինչեր եմ կարում։\n\n\n\n\n\n\nՉինական գնացքների թեորեմ\n\n\n\n\n2.2.1 LaTeX of Chinese Remainder Theorem\n\\[\n\\begin{aligned}\n&x \\equiv a_1 \\ (\\text{mod} \\ n_1) \\\\\n&x \\equiv a_2 \\ (\\text{mod} \\ n_2) \\\\\n&\\vdots \\\\\n&x \\equiv a_k \\ (\\text{mod} \\ n_k)\n\\end{aligned}\n\\]\n\n\n2.2.2 R Code\n\nchinese_remainder &lt;- function(a, n) {\n  N &lt;- prod(n)\n  sum(a * (N / n) * sapply(N / n, function(x) solve(x, 1) %% x)) %% N\n}",
+    "text": "2.2 Տիկո նայի ինչեր եմ կարում։\n\n\n\n\n\n\nՉինական գնացքների թեորեմ\n\n\n\n\n2.2.1 LaTeX of Chinese Remainder Theorem\n\\[\n\\begin{aligned}\n&x \\equiv a_1 \\ (\\text{mod} \\ n_1) \\\\\n&x \\equiv a_2 \\ (\\text{mod} \\ n_2) \\\\\n&\\vdots \\\\\n&x \\equiv a_k \\ (\\text{mod} \\ n_k)\n\\end{aligned}\n\\]\n\n\n2.2.2 R Code\n\n\nCode\nchinese_remainder &lt;- function(a, n) {\n  N &lt;- prod(n)\n  sum(a * (N / n) * sapply(N / n, function(x) solve(x, 1) %% x)) %% N\n}",
     "crumbs": [
       "Tutorials",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Armenian</span>"
