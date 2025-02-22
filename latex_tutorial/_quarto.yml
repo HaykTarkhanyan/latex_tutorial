@@ -1,12 +1,12 @@
 project:
   # Use "book" instead of "website" to get a left sidebar of chapters
   type: book
+  output-dir: docs
 
 book:
   # Global title (appears at the top of the sidebar)
   title: "LaTeX Tutorials 1"
   author: "Your Name"
-  output-dir: docs
 
   # Define chapters (top-level pages) and sub-chapters
   chapters:
