@@ -24,7 +24,7 @@ format:
 
     # Show table of contents on the left
     toc: true
-    toc-location: left
+    toc-location: right
 
     # Optional: Control sidebar depth or other options
     # number-sections: true
