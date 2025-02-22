@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "latex_tutorial",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "about.html#markdown",
+    "href": "about.html#markdown",
+    "title": "About",
+    "section": "Markdown",
+    "text": "Markdown\nMarkdown is an easy to read and write text format:\n\nIt’s plain text so works well with version control\nIt can be rendered into HTML, PDF, and more\nLearn more at: https://quarto.org/docs/authoring/"
+  },
+  {
+    "objectID": "about.html#code-cell",
+    "href": "about.html#code-cell",
+    "title": "About",
+    "section": "Code Cell",
+    "text": "Code Cell\nHere is a Python code cell:\n\nimport time \nimport random\n\nprint(time.time())\nprint(random.randint(1,100))\n\n1740250257.634851\n84"
+  },
+  {
+    "objectID": "about.html#equation",
+    "href": "about.html#equation",
+    "title": "About",
+    "section": "Equation",
+    "text": "Equation\nUse LaTeX to write equations:\n\\[\n\\chi' = \\sum_{i=2}^n k_i s_i^2\n\\]"
+  }
+]

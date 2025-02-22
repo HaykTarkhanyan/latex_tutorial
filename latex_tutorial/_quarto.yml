@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "latex_tutorial"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - dark
+      - brand
+    css: styles.css
+    toc: true
+
+
+
